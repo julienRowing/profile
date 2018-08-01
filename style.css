@@ -5,16 +5,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-size:12px;
-  /*background: #EBEBEB;*/
-  background: red;
-  background: linear-gradient(#2c3e50
-, #4ca1af);
+  background: #EBEBEB;
 }
-
-/*#grad {
-    background: linear-gradient(#2c3e50
-, #4ca1af);
-}*/
 
 h1, h2, h3, h4 {
   font-family: 'Raleway', sans-serif;
@@ -46,15 +38,19 @@ a:hover{
   color: darkgreen;
 }
 
-#menu-text{
-  color: darkgreen;
-  opacity: 0.7;
-  text-align: left;
+.btn-green {
+    background-color: darkgreen;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    opacity: 0.7;
 }
 
-#menu-text:hover{
-  color: darkgreen;
-  opacity: 1.0;
+.btn-green:hover {
+    background-color: darkgreen;
+    color: white;
+    opacity: 1.0;
 }
 
 .list-inline > li {
@@ -108,16 +104,3 @@ td {
     /*height: 50px;*/
     vertical-align: top;
 }
-
-#sidebar {
-  position: fixed;
-  width: 300px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  text-align: left;
-}
-#page-content {
-  margin-left: 300px;
-}
-
