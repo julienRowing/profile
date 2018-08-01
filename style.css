@@ -1,0 +1,91 @@
+/*style_julien.css*/
+body {
+  color: rgb(8, 38, 154);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size:12px;
+  background: #EBEBEB;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 1.4em;
+  padding: 0px;
+}
+h3 {
+ font-size: 1.2em;
+}
+
+h1 {
+  color: darkgreen;
+}
+h2, h3, h4 {
+  color:#041374;
+}
+
+a{
+  text-decoration: none; /* pour enlever le surlignage des liens*/
+  font-weight: lighter;
+  color: rgba(8, 38, 154,1.0);
+  opacity: 0.7;
+}
+a:hover{
+  opacity: 1.0;
+  color: darkgreen;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+
+.titles-align > li{
+  text-align: left;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-shape{
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding:20px;
+  margin-bottom: 20px;
+}
+
+.card-white{
+    background: white;
+}
+
+.card-grey{
+  background: rgba(220,220,220,1);
+}
+
+
+.image-circle-header{
+  border-radius: 50%;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  border: 2px solid darkgreen;
+  width: 100px;
+  height: 100px;
+}
+
+.image-album > img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+td {
+    /*height: 50px;*/
+    vertical-align: top;
+}
